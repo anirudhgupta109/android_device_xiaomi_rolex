@@ -117,10 +117,7 @@ WITH_LINEAGE_CHARGER := false
 BOARD_CHARGER_ENABLE_SUSPEND := true
 BOARD_CHARGER_DISABLE_INIT_BLANK := true
 
-# CNE / DPM
-BOARD_USES_QCNE := true
-
-# Dexpreopt
+# Dex
 ifeq ($(HOST_OS),linux)
   ifneq ($(TARGET_BUILD_VARIANT),eng)
     WITH_DEXPREOPT := true
