@@ -38,6 +38,14 @@ vendor.voice.playback.conc.disabled=true
 vendor.voice.record.conc.disabled=false
 vendor.voice.voip.conc.disabled=true
 
+# Camera
+camera.display.umax=1920x1080
+camera.display.lmax=1280x720
+persist.camera.gyro.android=1
+persist.camera.is_type=1
+vidc.enc.narrow.searchrange=1
+camera.hal1.packagelist=com.skype.raider,com.google.android.talk
+
 # Bluetooth
 bluetooth.hfp.client=1
 ro.qualcomm.bt.hci_transport=smd
