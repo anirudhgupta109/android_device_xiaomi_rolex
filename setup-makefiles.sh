@@ -19,7 +19,7 @@
 set -e
 
 # Required!
-DEVICE=land
+DEVICE=rolex
 VENDOR=xiaomi
 
 INITIAL_COPYRIGHT_YEAR=2016
