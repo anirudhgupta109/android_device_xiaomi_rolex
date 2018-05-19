@@ -91,7 +91,6 @@ ro.qualcomm.cabl=0
 ro.qualcomm.svi=0
 ro.sf.lcd_density=320
 persist.debug.wfd.enable=1
-persist.hwc.enable_vds=1
 
 # DRM
 drm.service.enabled=true
@@ -100,12 +99,6 @@ drm.service.enabled=true
 ro.vendor.qti.sys.fw.bservice_enable=true
 ro.vendor.qti.sys.fw.bservice_limit=5
 ro.vendor.qti.sys.fw.bservice_age=5000
-
-# Fingerprint
-persist.qfp=false
-
-# Fm
-ro.fm.transmitter=false
 
 # GPS
 persist.gps.qc_nlp_in_use=1
@@ -190,14 +183,12 @@ persist.vendor.radio.csg_info_avlbl=1
 persist.vendor.radio.custom_ecc=1
 persist.vendor.radio.force_on_dc=true
 persist.vendor.radio.lte_vrte_ltd=1
+persist.vendor.ims.dropset_feature=0
 persist.vendor.radio.manual_nw_rej_ct=1
 persist.vendor.radio.rat_on=combine
 persist.vendor.radio.sib16_support=1
 service.qti.ims.enabled=1
 telephony.lteOnCdmaDevice=1
-
-# SdcardFs
-ro.sys.sdcardfs=true
 
 # Time Services
 persist.timed.enable=true
